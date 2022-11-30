@@ -57,6 +57,33 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v1
+    appVersion: 2.2.0
+    created: "2022-11-30T14:20:54.213971338Z"
+    description: A Library Helm Chart for grouping common logic between bitnami charts.
+      This chart is not deployable by itself.
+    digest: c721c522786c00efd731cce624dba45c22669e082c587bace95a8f3818786207
+    home: https://github.com/bitnami/charts/tree/main/bitnami/common
+    icon: https://bitnami.com/downloads/logos/bitnami-mark.png
+    keywords:
+    - common
+    - helper
+    - template
+    - function
+    - bitnami
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: common
+    sources:
+    - https://github.com/bitnami/charts
+    - https://www.bitnami.com/
+    type: library
+    urls:
+    - https://github.com/Dokify/helm-charts/releases/download/common-2.2.0/common-2.2.0.tgz
+    version: 2.2.0
+  - annotations:
+      category: Infrastructure
+    apiVersion: v1
     appVersion: 1.10.4
     created: "2022-11-29T10:12:38.532357461Z"
     description: A Library Helm Chart for grouping common logic between bitnami charts.
@@ -780,4 +807,4 @@ entries:
     urls:
     - https://github.com/rafaelcalleja/helm-charts/releases/download/tekton-0.0.64/tekton-0.0.64.tgz
     version: 0.0.64
-generated: "2022-11-29T10:12:38.532395361Z"
+generated: "2022-11-30T14:20:54.214192338Z"
