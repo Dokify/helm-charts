@@ -796,6 +796,36 @@ entries:
     urls:
     - https://github.com/rafaelcalleja/helm-charts/releases/download/osiris-v0.0.4/osiris-v0.0.4.tgz
     version: v0.0.4
+  rabbitmq-cluster-operator:
+  - apiVersion: v1
+    appVersion: 2.0.0
+    created: "2022-12-27T14:46:36.941911465Z"
+    dependencies:
+    - name: common
+      repository: https://dokify.github.io/helm-charts
+      version: 2.2.0
+    description: The RabbitMQ Cluster Kubernetes Operator automates provisioning,
+      management, and operations of RabbitMQ clusters running on Kubernetes.
+    digest: 4c04972496d332c04b06eb70975b89233057c09d2779dba5a6d64e332f27336c
+    home: https://github.com/rabbitmq/cluster-operator
+    icon: https://bitnami.com/assets/stacks/rabbitmq-cluster-operator/img/rabbitmq-cluster-operator-stack-220x234.png
+    keywords:
+    - rabbitmq
+    - operator
+    - infrastructure
+    - message queue
+    - AMQP
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: rabbitmq-cluster-operator
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/rabbitmq-cluster-operator
+    - https://github.com/rabbitmq/cluster-operator
+    urls:
+    - https://github.com/Dokify/helm-charts/releases/download/rabbitmq-cluster-operator-3.1.4/rabbitmq-cluster-operator-3.1.4.tgz
+    version: 3.1.4
   tekton:
   - apiVersion: v1
     created: "2022-09-21T13:45:51.12680367Z"
@@ -807,4 +837,4 @@ entries:
     urls:
     - https://github.com/rafaelcalleja/helm-charts/releases/download/tekton-0.0.64/tekton-0.0.64.tgz
     version: 0.0.64
-generated: "2022-11-30T14:20:54.214192338Z"
+generated: "2022-12-27T14:46:36.941978566Z"
